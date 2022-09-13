@@ -5,7 +5,7 @@
    Date of Execution: 06-09-2022
 */
 #include<stdio.h>
-int main()
+main()
 {
 int bt[20], wt[20], tat[20], i, n;
 float wtavg, tatavg;
