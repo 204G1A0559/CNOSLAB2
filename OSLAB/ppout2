@@ -1,0 +1,15 @@
+<pre><font color="#12488B"><b>~/204G1A0559/CNOSLAB2/OSLAB</b></font>$ ./a.out
+Enter the number of processes --- 3
+Enter the Burst Time &amp; Priority of Process 0 --- 3
+4
+Enter the Burst Time &amp; Priority of Process 1 --- 4
+5
+Enter the Burst Time &amp; Priority of Process 2 --- 5
+2
+
+PROCESS		PRIORITY	BURST TIME	WAITING TIME	TURNAROUNDTIME
+2 		 2 		 5 		 0 		 5 
+0 		 4 		 3 		 5 		 8 
+1 		 5 		 4 		 8 		 12 
+Average Waiting Time is --- 4.333333
+AverageTurnaround Time is --- 8.333333</pre>
