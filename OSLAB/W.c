@@ -6,14 +6,13 @@
 */
 
 #include<stdio.h>
-#include<conio.h>
+//#include<conio.h>
 #define max 25
-void main()
+int main()
 {
-int
-frag[max],b[max],f[max],i,j,nb,nf,t
-emp; static int bf[max],ff[max];
-clrscr();
+int frag[max],b[max],f[max],i,j,nb,nf,temp; 
+static int bf[max],ff[max];
+//clrscr();
 printf("\n\tMemory Management Scheme - First Fit");
 printf("\nEnter the number of blocks:");
 scanf("%d",&nb);
@@ -25,7 +24,6 @@ for(i=1;i<=nb;i++)
 printf("Block %d:",i);
 scanf("%d",&b[i]);
 }
-
 printf("Enter the size of the files :-\n");
 for(i=1;i<=nf;i++)
 {
@@ -52,5 +50,5 @@ bf[ff[i]]=1;
 printf("\nFile_no:\tFile_size :\tBlock_no:\tBlock_size:\tFragement");
 for(i=1;i<=nf;i++)
 printf("\n%d\t\t%d\t\t%d\t\t%d\t\t%d",i,f[i],ff[i],b[ff[i]],frag[i]);
-getch();
+return 0;
 }
