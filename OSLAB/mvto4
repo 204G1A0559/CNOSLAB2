@@ -1,0 +1,18 @@
+<pre>Enter the total memory available (in Bytes)-- 4
+
+Enter memory required for process 1 (in Bytes) -- 2
+
+Memory is allocated for Process 1 
+Do you want to continue(y/n) -- y
+
+Enter memory required for process 2 (in Bytes) -- 6
+
+Memory is Full
+
+Total Memory Available -- 4
+
+	PROCESS		 MEMORY ALLOCATED 
+ 	1		2
+
+Total Memory Allocated is 2
+Total External Fragmentation is 2</pre>

@@ -6,12 +6,10 @@
 */
 
 #include<stdio.h>
-#include<conio.h>
-main()
+int main()
 {
 int ms,mp[10],i,
 temp,n=0; char ch = 'y';
-clrscr();
 printf("\nEnter the total memory available (in Bytes)-- ");
 scanf("%d",&ms);
 temp=ms;
@@ -26,7 +24,8 @@ temp = temp - mp[i];
 }
 else
 {
-printf("\nMemory is Full"); break;
+printf("\nMemory is Full"); 
+break;
 }
 printf("\nDo you want to continue(y/n) -- ");
 scanf(" %c", &ch);
@@ -37,5 +36,5 @@ for(i=0;i<n;i++)
 printf("\n \t%d\t\t%d",i+1,mp[i]);
 printf("\n\nTotal Memory Allocated is %d",ms-temp);
 printf("\nTotal External Fragmentation is %d",temp);
-getch();
+return 0;
 }

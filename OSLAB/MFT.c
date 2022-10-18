@@ -6,12 +6,12 @@
 */
 
 #include<stdio.h>
-#include<conio.h>
-main()
+//#include<conio.h>
+int main()
 {
 int ms, bs, nob, ef,n,
 mp[10],tif=0; int i,p=0;
-clrscr();
+//clrscr();
 printf("Enter the total memory available (in Bytes) -- ");
 scanf("%d",&ms);
 printf("Enter the block size (in Bytes) -- ");
@@ -44,5 +44,5 @@ if(i<n)
 printf("\nMemory is Full, Remaining Processes cannot be accomodated");
 printf("\n\nTotal Internal Fragmentation is %d",tif);
 printf("\nTotal External Fragmentation is %d",ef);
-getch();
+return 0;
 }
