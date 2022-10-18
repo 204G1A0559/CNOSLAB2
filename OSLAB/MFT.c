@@ -9,8 +9,7 @@
 //#include<conio.h>
 int main()
 {
-int ms, bs, nob, ef,n,
-mp[10],tif=0; int i,p=0;
+int ms, bs, nob, ef,n,mp[10],tif=0; int i,p=0;
 //clrscr();
 printf("Enter the total memory available (in Bytes) -- ");
 scanf("%d",&ms);
@@ -26,8 +25,7 @@ printf("Enter memory required for process %d (in Bytes)-- ",i+1);
 scanf("%d",&mp[i]);
 }
 printf("\nNo. of Blocks available in memory--%d",nob);
-printf("\n\nPROCESS\tMEMORYREQUIRED\tALLOCATED\tINTERNAL
-FRAGMENTATION");
+printf("\n\nPROCESS\tMEMORYREQUIRED\tALLOCATED\tINTERNALFRAGMENTATION");
 for(i=0;i<n && p<nob;i++)
 {
 printf("\n %d\t\t%d",i+1,mp[i]);
