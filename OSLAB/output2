@@ -1,0 +1,7 @@
+<pre>Enter no of jobs: 2
+Enter name and time: A 4
+Enter name and time: B 6
+Enter the available resources:5
+ANo safe sequence
+Safe sequence is:A4
+</pre>

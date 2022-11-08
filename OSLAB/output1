@@ -1,0 +1,8 @@
+<pre>Enter no of jobs: 3
+Enter name and time: A 2
+Enter name and time: b 5
+Enter name and time: C 4
+Enter the available resources:20
+ACbSafe sequence is:A2
+C4
+b5</pre>
