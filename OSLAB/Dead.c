@@ -1,8 +1,8 @@
 /*   Name Of the Candidate: K.MOULIKA
    Roll No: 204G1A0559
-   Title of the Experiment: CPU Scheduling Using FCFS Algorithm
-   Date of Creation: 06-09-2022
-   Date of Execution: 06-09-2022
+   Title of the Experiment: Dead Lock Avoidance
+   Date of Creation: 08-11-2022
+   Date of Execution: 08-11-2022
 */
 
 #include<stdio.h>
