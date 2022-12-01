@@ -1,0 +1,23 @@
+<pre>Enter the number of blocks:4
+Enter the number of files:6
+
+Enter the size of the blocks:-
+Block 1:12
+Block 2:34
+Block 3:5
+Block 4:4
+Enter the size of the files :-
+File 1:43
+File 2:32
+File 3:44
+File 4:1
+File 5:33
+File 6:4
+
+File_no:	File_size:	Block_no:	Block_size:	Fragement
+1		43		5		0		0
+2		32		5		0		0
+3		44		5		0		0
+4		1		5		0		0
+5		33		5		0		0
+6		4		5		0		0</pre>
